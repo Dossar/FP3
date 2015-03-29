@@ -1,39 +1,46 @@
 # FP3: Team Declaration
 DUE April 2, 2015 Wednesday (2015-04-02)
 
-For full description, see the project schedule [on Piazza.][piazza]
-
-<i>Edit this file to make your report!</i>
-
 ### Team Members
-* github names and real names.
-* Teams of less than two members, or more than three members must get written permission from Mark in advance.
+
+The given information is the real name followed by the GitHub username.
+
+* Roy Van Liew - [**Dossar**][Dossar]
+* James Kuczynski - [**DeepBlue14**][DeepBlue14]
+* Yong Cho - [**YongCho**][YongCho]
 
 ### A Team Name
-for the purpose of creating a github group
+
+Deciding between the following:
+* Racket Science - another team might have already thought of this.
+* Schemeless Racketmen
 
 ### Project Title
-10 words or fewer
+
+Pending Title. We'd like something short but to the point.
+
+Racket-QA: Testing Utilities for Racket QA Engineers
+* Racket-Doc: Documentation Generator
+* Bottle-Racket: Simple, clean GUI for changing Bottlenose Perl tests to Racket tests
+* Racket-EasyTest: Simple, clean GUI for generating test cases and suites
 
 ### Project Concept
-can be basic, fluid. Details will be in the next assignment.
+
+The purpose of this project is to create utilities that a QA Engineer could use when programming in Racket.
 
 ### Libraries You Plan to Use 
-as a group
 
-### How to Do and Submit this assignment
+From what it looks like so far from the group, these are the libraries that have been used:
+* Racket Graphical Interface Toolkit - `#lang racket/gui`
+* Filesystem - `(require racket/file)`
+* RackUnit - `(require rackunit)`
+* IMAP - `(require net/imap)`
 
-1. To start, [**fork** this repository][forking].
-1. This assignment is just one README.md file, so you can edit it right in github.
-1. Modify the README.md file and [**commit**][ref-commit] changes.
-1. [Create a **pull request**][pull-request] on the original repository to turn in the assignment.
+The reason why I listed IMAP is because email could also be handy with exporting test results and as a helper utility. For instance:
+* Someone could create a new test suite and want to email a file with it to themselves or another person.
+* An email can be sent when the test cases run, indicating that the test cases pass or fail. In my experience as a QA Engineer in Akamai, I'd see results from Daily Regressions, and emails were sent to the QA Team about what passed and what didn't.
 
 <!-- Links -->
-[piazza]: https://piazza.com/class/i55is8xqqwhmr?cid=453
-[markdown]: https://help.github.com/articles/markdown-basics/
-[forking]: https://guides.github.com/activities/forking/
-[ref-clone]: http://gitref.org/creating/#clone
-[ref-commit]: http://gitref.org/basic/#commit
-[ref-push]: http://gitref.org/remotes/#push
-[pull-request]: https://help.github.com/articles/creating-a-pull-request
-
+[Dossar]: https://github.com/Dossar
+[DeepBlue14]: https://github.com/DeepBlue14
+[YongCho]: https://github.com/YongCho
