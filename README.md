@@ -23,6 +23,7 @@ The purpose of this project is to create utilities that a QA Engineer could use 
 ### Libraries You Plan to Use 
 
 Each library description below is formatted in the following order:
+
 `Library Name` - `require` or `#lang` statement - `Purpose`
 
 These are the libraries that we plan to use:
