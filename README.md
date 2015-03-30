@@ -15,10 +15,10 @@ The given information is the real name followed by the GitHub username. There ar
 ### Project Concept
 
 The purpose of this project is to create utilities that a QA Engineer could use when programming in Racket. A few parts we brainstormed:
-* Racket-Doc: Documentation Generator
-* Bottle-Racket: Simple, clean GUI for changing Bottlenose Perl tests to Racket tests
-* Racket-EasyTest: Simple, clean GUI for generating test cases and suites
-* Racket-QA-Mail: Sending mail to a QA team's email about test suite results
+* Racket-Doc: GUI-based documentation auto-extraction/generation from annotated Racket source files.  The results can be viewed both in a text file and in a web browser.
+* Bottle-Racket: Simple, clean GUI for changing Bottlenose Perl tests to Racket tests.
+* Racket-EasyTest: Simple, clean GUI for generating test cases and suites.
+* Racket-QA-Mail: Sending mail to a QA team's email about test suite results.
 
 ### Libraries You Plan to Use 
 
@@ -28,7 +28,7 @@ Each library description below is formatted in the following order:
 
 These are the libraries that we plan to use:
 * Racket Graphical Interface Toolkit - `#lang racket/gui` - Simple, clean windows that are user-friendly for our project applications.
-* Web Server - `#lang web-server/insta` - Generating HTML to display in a web browser, similar to what doxygen does.
+* Web Server - `#lang web-server/insta` - Displaying styled text in web pages.
 * Filesystem - `(require racket/file)` - Retrieving contents from files and creating new files.
 * RackUnit - `(require rackunit)` - Running test suites. It also has a logging utility to look into for tracking test results.
 * SMTP - `(require net/smtp)` - Notifying test results to the users via email.
