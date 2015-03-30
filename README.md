@@ -3,7 +3,7 @@ DUE April 2, 2015 Wednesday (2015-04-02)
 
 ### Team Members
 
-The given information is the real name followed by the GitHub username. There are 3 members on this team:
+There are 3 members on this team:
 * Roy Van Liew - [**Dossar**][Dossar]
 * James Kuczynski - [**DeepBlue14**][DeepBlue14]
 * Yong Cho - [**YongCho**][YongCho]
@@ -22,7 +22,7 @@ The purpose of this project is to create utilities that a QA Engineer could use 
 
 ### Libraries You Plan to Use 
 
-Each library description below is formatted in the following order:
+Each library description below is formatted in the following order.
 
 `Library Name` - `require` or `#lang` statement - `Purpose`
 
