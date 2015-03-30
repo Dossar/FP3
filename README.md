@@ -3,8 +3,7 @@ DUE April 2, 2015 Wednesday (2015-04-02)
 
 ### Team Members
 
-The given information is the real name followed by the GitHub username. There are 3 members on this team.
-
+The given information is the real name followed by the GitHub username. There are 3 members on this team:
 * Roy Van Liew - [**Dossar**][Dossar]
 * James Kuczynski - [**DeepBlue14**][DeepBlue14]
 * Yong Cho - [**YongCho**][YongCho]
@@ -24,11 +23,9 @@ The purpose of this project is to create utilities that a QA Engineer could use 
 ### Libraries You Plan to Use 
 
 Each library description below is formatted in the following order:
-* Library Name
-* require or #lang statement
-* Brief description of its purpose
+`Library Name` - `require` or `#lang` statement - `Purpose`
 
-These are the libraries that have been used:
+These are the libraries that we plan to use:
 * Racket Graphical Interface Toolkit - `#lang racket/gui` - Simple, clean windows that are user-friendly for our project applications.
 * Web Server - `#lang web-server/insta` - Generating HTML to display in a web browser, similar to what doxygen does.
 * Filesystem - `(require racket/file)` - Retrieving contents from files and creating new files.
