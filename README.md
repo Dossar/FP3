@@ -34,8 +34,8 @@ From what it looks like so far from the group, these are the libraries that have
 * Web Server - `#lang web-server/insta` - Generating HTML to display in a web browser, similar to what doxygen does.
 * Filesystem - `(require racket/file)` - Retrieving contents from files and creating new files.
 * RackUnit - `(require rackunit)` - Running test suites. It also has a logging utility to look into for tracking test results.
-* IMAP - `(require net/imap)` - Yong Cho should give input on this as well, being able to send email about test suite results
-* STMP - `(require net/smtp)` - Yong Cho should give input on this as well, being able to send email about test suite results
+* SMTP - `(require net/smtp)` - Notifying test results to the users via email.
+* SSL - `(require openssl)` - Providing secure connection to the SMTP server.
 
 <!-- Links -->
 [Dossar]: https://github.com/Dossar
